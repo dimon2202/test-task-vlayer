@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 function Hero() {
   return (
     <section className="flex flex-col md:flex-row h-full mx-auto">
-      <div className="container flex flex-col items-center w-full px-6 pt-16 pb-8 mx-auto space-y-10 text-center md:px-14 xl:items-start bg-lightGray xl:pt-24 xl:text-left xl:w-1/2 xl:p-24 xl:pl-16 2xl:pl-72">
+      <div className="container flex flex-col items-center w-full px-6 pt-16 pb-8 mx-auto space-y-10 text-center md:px-14 xl:items-start bg-lightGray xl:pt-24 xl:text-left xl:w-1/2 xl:p-24 xl:pl-16 2xl:pl-25">
         <motion.h2
           className="text-4xl font-bold sm:text-5xl xl:text-7xl text-darkBlue"
           initial={{ opacity: 0, x: -50, y: 20 }}
