@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+@theme {
+  --color-darkBlue: hsl(227 100% 8%);
+  --color-blueBlack: hsl(245 79% 19%);
+  --color-lightPurple: hsl(245 82% 67%);
+  --color-lighterPurple: hsl(245 61% 92%);
+  --color-lightGray: hsl(245 60% 98%);
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
+
+  --body-medium-150-medium-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-medium-150-medium-font-size: 16px;
+  --body-medium-150-medium-font-style: normal;
+  --body-medium-150-medium-font-weight: 500;
+  --body-medium-150-medium-letter-spacing: 0px;
+  --body-medium-150-medium-line-height: 150%;
+  --colors-base-0: rgba(255, 255, 255, 1);
+  --colors-base-1000: rgba(0, 0, 0, 1);
+  --colors-base-200: rgba(234, 236, 244, 1);
+  --colors-base-300: rgba(214, 216, 229, 1);
+  --colors-base-600: rgba(123, 129, 145, 1);
+  --colors-secondary-0: rgba(237, 234, 255, 1);
+  --colors-secondary-300: rgba(104, 81, 255, 1);
+  --heading-h2-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h2-font-size: 40px;
+  --heading-h2-font-style: normal;
+  --heading-h2-font-weight: 700;
+  --heading-h2-letter-spacing: -0.4px;
+  --heading-h2-line-height: 139.9999976158142%;
+  --heading-h4-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h4-font-size: 24px;
+  --heading-h4-font-style: normal;
+  --heading-h4-font-weight: 700;
+  --heading-h4-letter-spacing: -0.24px;
+  --heading-h4-line-height: 150%;
+  --main-colorblack: rgba(0, 9, 41, 1);
+  --neutral-0: rgba(255, 255, 255, 1);
+  --neutral-200: rgba(234, 236, 244, 1);
+  --secondary-500: rgba(104, 81, 255, 1);
+  --uicolorprimary: rgba(103, 80, 163, 1);
+  
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  --body-medium-150-medium-font-family: "Plus Jakarta Sans", Helvetica;
+  --body-medium-150-medium-font-size: 16px;
+  --body-medium-150-medium-font-style: normal;
+  --body-medium-150-medium-font-weight: 500;
+  --body-medium-150-medium-letter-spacing: 0px;
+  --body-medium-150-medium-line-height: 150%;
+  --colors-base-0: rgba(255, 255, 255, 1);
+  --colors-base-1000: rgba(0, 0, 0, 1);
+  --colors-base-200: rgba(234, 236, 244, 1);
+  --colors-base-300: rgba(214, 216, 229, 1);
+  --colors-base-600: rgba(123, 129, 145, 1);
+  --colors-secondary-0: rgba(237, 234, 255, 1);
+  --colors-secondary-300: rgba(104, 81, 255, 1);
+  --heading-h2-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h2-font-size: 40px;
+  --heading-h2-font-style: normal;
+  --heading-h2-font-weight: 700;
+  --heading-h2-letter-spacing: -0.4px;
+  --heading-h2-line-height: 139.9999976158142%;
+  --heading-h4-font-family: "Plus Jakarta Sans", Helvetica;
+  --heading-h4-font-size: 24px;
+  --heading-h4-font-style: normal;
+  --heading-h4-font-weight: 700;
+  --heading-h4-letter-spacing: -0.24px;
+  --heading-h4-line-height: 150%;
+  --main-colorblack: rgba(0, 9, 41, 1);
+  --neutral-0: rgba(255, 255, 255, 1);
+  --neutral-200: rgba(234, 236, 244, 1);
+  --secondary-500: rgba(104, 81, 255, 1);
+  --uicolorprimary: rgba(103, 80, 163, 1);
+}
+
+body {
+  margin: 0;
+}
+
+.backgroundImage {
+  background-image: url("/bg-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
